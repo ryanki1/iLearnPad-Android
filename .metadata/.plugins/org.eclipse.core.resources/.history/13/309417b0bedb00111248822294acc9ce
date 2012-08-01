@@ -13,13 +13,12 @@
     	android:resizeable="true" 
     	android:anyDensity="true" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.INTERNET" />
     <application
-        android:icon="@drawable/ilearnpad_launcher"
+        android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".iLearnPad"
+            android:name=".MainActivity"
             android:label="@string/title_activity_main"
             android:configChanges="orientation|keyboardHidden|screenSize" >
             <intent-filter>
