@@ -128,9 +128,7 @@ function loupeInit(loupe){
 		$('#img' + loupe.attributes.title).attr('usemap', (window.orientation == 90 || window.orientation == -90) ? "#"+loupe.attributes.usemapPortrait : "#"+loupe.attributes.usemapPortrait);
 
 	});
-	//$( "#content" + item.attributes.title ).bind( 'pageinit',function(event){
 
-    //});
     loadAudio(loupe);
 	
 }
